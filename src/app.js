@@ -282,7 +282,7 @@ jQuery(document).ready(function ($, undefined) {
     }
   )
   // we don't want formatting on version number
-  term.echo('BiwaScheme v' + BiwaScheme.Version, {
+  term.echo('BiwaScheme v' + BiwaScheme.Version + ' - R6RS/R7RS Scheme', {
     formatters: false,
   })
   // run trace mode

@@ -7,7 +7,7 @@ The idea is to have a Gambit Scheme REPL in the browser, which has a good UX on 
 Setup local env:
 
 ```bash
-git clone ...
+git clone git@github.com:branneman/scheme-repl-in-browser.git
 cd scheme-repl-in-browser
 npm ci
 npm start
