@@ -2,26 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <title>Scheme REPL in Browser, R6RS/R7RS Scheme</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link href="src/app.css" rel="stylesheet" type="text/css" />
+    <link href="src/app.css" rel="stylesheet" />
+    <link href="src/jquery.terminal.min.css" rel="stylesheet" />
+    <link href="src/prism-coy.css" rel="stylesheet" />
+
     <link
-      href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"
-      rel="stylesheet"
+      rel="icon"
+      type="image/png"
+      href="/scheme-repl-in-browser/src/favicon-96x96.png"
+      sizes="96x96"
     />
-    <link href="src/prism-coy.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/scheme-repl-in-browser/src/favicon.svg"
+    />
+    <link rel="shortcut icon" href="/scheme-repl-in-browser/src/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/scheme-repl-in-browser/src/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Scheme" />
+    <link rel="manifest" href="/scheme-repl-in-browser/src/site.webmanifest" />
   </head>
   <body>
     <div id="term"></div>
 
-    <script src="src/biwascheme-0.7.5-min.js" type="text/javascript"></script>
+    <script src="src/biwascheme-0.7.5-min.js"></script>
     <script src="src/prism.js"></script>
     <script src="src/prism-scheme.min.js"></script>
     <script src="src/jquery.terminal.min.js"></script>
     <script src="src/jquery.terminal.prism.js"></script>
     <script src="src/keyboard.js"></script>
-    <script src="src/app.js" type="text/javascript"></script>
+    <script src="src/app.js"></script>
   </body>
 </html>
